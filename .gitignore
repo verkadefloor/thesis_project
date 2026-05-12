@@ -10,5 +10,14 @@ wheels/
 .venv
 .env
 
-#folder
+# Folder
 tests/
+
+# Big files
+data/vector_stores
+baseline_fixed/
+baseline_structured/
+data/results
+
+# Notebook checkpoints
+.ipynb_checkpoints/
