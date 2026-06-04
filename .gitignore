@@ -12,6 +12,7 @@ wheels/
 
 # Folder
 tests/
+data/results_oud
 
 # Big files
 data/vector_stores
