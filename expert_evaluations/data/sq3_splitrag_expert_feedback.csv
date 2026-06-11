@@ -1,0 +1,28 @@
+Respondent,Case,System,Feedback
+R_8PDwnxI4hxF2Z8d,Case 1,Split-RAG,"Het antwoord klopt, maar is meer een soort juridisch kader en niet per se waarderend."
+R_8PDwnxI4hxF2Z8d,Case 2,Split-RAG,"Het antwoord gaat in op de omgevingswet, wat logisch lijkt omdat de casus misschien over het omgevingsrecht gaat. Alleen in een geval als deze is het handiger om gebruik te maken van de Algemene wet bestuursrecht, daarin staat een exact artikel over tijdige indiening van een bezwaarschrift."
+R_8PDwnxI4hxF2Z8d,Case 3,Split-RAG,In dit geval wordt nog een wabo (oud recht) artikel benoemd terwijl de omgevingswet nu van kracht is. Het wabo artikel kan wellicht toepasselijk zijn als er sprake is van een oude vergunning (van voor 1 januari 2024) in dat geval zal ook overgangsrecht benoemd moeten worden.
+R_8PDwnxI4hxF2Z8d,Case 5,Split-RAG,Duidelijke tekst mist alleen meer context
+R_8PDwnxI4hxF2Z8d,Case 6,Split-RAG,Ik mis hier de eventuele welstandsnormen.
+R_27PrvhprzXhPjX3,Case 1,Split-RAG,"Het antwoord haalt de regels over rijksmonumenten erbij, terwijl het over een gemeentelijk monument gaat. Ook noemt het antwoord niet de mogelijkheid van een BOPA"
+R_27PrvhprzXhPjX3,Case 2,Split-RAG,16.98 van de Omgevingswet is niet van toepassing. Ik mis een verwijzing naar 6:9 Awb.
+R_27PrvhprzXhPjX3,Case 4,Split-RAG,"Wabo geldt niet meer, dus had niet genoemd moeten worden. Verwijzing naar 10.18 Ow is ook niet relevant. AI had eruit moeten halen dat het gelijkheidsbeginsel speelt en daarover rechtspraak moeten zoeken."
+R_27PrvhprzXhPjX3,Case 9,Split-RAG,"Hier ook weer: 2.10, eerste lid, van de Wabo geldt niet meer. Verwijzing naar de uitspraak van de Afdeling bestuursrechtspraak klopt wel, maar ik noemt eigenlijk een algemeen leerstuk. Het spitst zich weinig toe op de casus."
+R_27PrvhprzXhPjX3,Case 10,Split-RAG,10.24 Omgevingswet gaat over een gedoogplicht en is niet relevant. 18.4a speelt hier niet. AI had moeten noemen wanneer een belangenvereniging belanghebbende is en in hoeverre het college de last zelf mag formuleren.
+R_21aXhYhKby7DRt4,Case 1,Split-RAG,"Het antwoord klopt alleen wanneer er sprake is van beleidsregels die zijn opgesteld. Indien deze beleidregels er niet zijn, is het nog steeds mogelijk om af te wijken van het bestemmingsplan/omgevingsplan, maar dan met een buitenplanse afwijking."
+R_21aXhYhKby7DRt4,Case 2,Split-RAG,Nee
+R_21aXhYhKby7DRt4,Case 5,Split-RAG,"Ik denk dat er hier al iets fout gaat bij de vraagstelling, want het is totaal onduidelijk waar de omgevingsplanactviteit op ziet. Om wat voor bouwplan gaat het hier?"
+R_21aXhYhKby7DRt4,Case 6,Split-RAG,"Wederom gaat het hier deels fout in de vraagstelling, want waar ziet het bouwproject op? En hiernaast is het antwoord ook compleet verkeerd. Wat het antwoord wel had moeten zijn volgt uit jurisprudentie over het leerstuk van de evident privaatrechtelijke belemmering. Maar dat komt in zijn geheel niet terug."
+R_21aXhYhKby7DRt4,Case 10,Split-RAG,"Ik weet niet heel veel van bomenkap, maar dit antwoord lijkt me zeer incompleet en ook niet helemaal juist."
+R_2svK85YWUagVqoc,Case 3,Split-RAG,"Artikel 5.20 lid 2 Omgevingswet klopt, maar het moet zijn onder b in plaats van d.
+Ook apart dat weer WABO wordt genoemd.
+De belangenafweging klopt wel.
+De genoemde rechtszaak, althans het ECLI nummer, bestaat niet."
+R_2svK85YWUagVqoc,Case 4,Split-RAG,Wederom WABO genoemd.
+R_2svK85YWUagVqoc,Case 5,Split-RAG,22.280 is van belang wanneer er sprake is van een binnenplanse afwijking. Dit blijkt alleen (nog) niet uit de vraag.
+R_2svK85YWUagVqoc,Case 7,Split-RAG,"Het gaat niet om 5:32 omgevingswet.
+De genoemde uitspraak gaat om visserij en niet om lichthinder.
+Conclusie is ook niet helemaal correct. De belangenafweging is al in de regels van het bestemmingsplan, als het gaat om een binnenplanse activiteit. De vraag is daar alleen niet expliciet over."
+R_2svK85YWUagVqoc,Case 8,Split-RAG,"Inhoudelijk apart dat de overtreding pas na de inwerkingtreding is geconstateerd.
+Het antwoord zou vollediger zijn als rechtspraak werd genoemd over overtredingen die pas na de inwerkingtreding vast zijn komen te staan."
+R_2svK85YWUagVqoc,Case 9,Split-RAG,Weer wordt WABO genoemd. De genoemde rechtspraak klopt wel.
