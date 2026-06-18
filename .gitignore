@@ -18,7 +18,6 @@ data/results_oud
 data/vector_stores
 baseline_fixed/
 baseline_structured/
-data/results
 
 # Notebook checkpoints
 .ipynb_checkpoints/
