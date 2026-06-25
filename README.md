@@ -27,6 +27,8 @@ The system is implemented using the following specifications:
 ## Setup Instructions
 
 1. Ensure a `.env` file is present in the root directory containing valid azure variables.
-2. Install the project and its dependencies:
+2. Synchronize the environment and install the project along with all locked dependencies:
    ```bash
-   pip install -e .
+   uv sync
+
+
