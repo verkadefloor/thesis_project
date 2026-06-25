@@ -1,28 +1,27 @@
-# Legal Decision Support with Split-RAG: Omgevingswet Case Study
+# Optimising Legal Information Retrieval and Decision Support for Municipal Governance: A Modular Hybrid Split-RAG Architecture for the Dutch Omgevingswet
 
-This repository contains the research and implementation of a modular Retrieval-Augmented Generation (RAG) framework designed to support legal decision-making within the Municipality of Amsterdam concerning the *Omgevingswet*. 
+This repository contains the research, experiments, and implementation of a modular Retrieval-Augmented Generation (RAG) framework designed to support legal decision-making in the context of the Dutch Omgevingswet.
 
-The research addresses the reasoning gap in municipal legal practice: legal experts require more than just the retrieval of relevant case law. They require a system capable of generating **dossier-specific normative justifications**, synthesizing statutory provisions from the *Omgevingswet* with relevant jurisprudence to substantiate legal advice for concrete administrative cases.
+The research investigates whether a Split-RAG architecture can improve legal information retrieval and support the generation of case-specific legal justifications by combining statutory provisions with relevant jurisprudence. The proposed approach separates legislation and case law into dedicated retrieval channels, reducing the risk that concise statutory provisions are overshadowed by voluminous judicial rulings when indexed within a single vector space.
+
+The framework was evaluated against a unified structure aware RAG baseline using both automated RAGAs metrics and expert assessments conducted by municipal legal experts. The results show that Split-RAG improves retrieval recall, source traceability, and answer faithfulness, while highlighting the remaining challenges of normative legal reasoning in legal AI systems.
+
 ## Project Structure
-
-* **data/**: Contains the two primary datasets—statutory legislation (JSONL) and judicial jurisprudence (JSONL). This directory also includes the Golden Standard evaluation set, consisting of 10 manually curated and expert-checked Query-Answer pairs.
-* **EDA/**: Contains the Exploratory Data Analysis notebook. This includes statistical analysis of document lengths, word distributions, and syntactic complexity which justify the choice for a modular architecture.
-* **data/**: Contains the datasets for statutory legislation and judicial jurisprudence, alongside the Gold Standard evaluation set (10 manually curated, expert-checked Query-Answer pairs), the vector stores and the results of the RAGAs evaluations.
-* **expert_evaluations/**: Contains analysis of the data provided by legal experts concerning the baseline and Split-RAG.
-* **split_rag/**: Contains the final model of the split-RAG and a notebook with experiments regarding the split-RAG.
-* **baseline/**: Contains the baseline experiments.
+* **data/**: Contains statutory legislation and judicial jurisprudence datasets in JSONL format, the Gold Standard evaluation set (10 manually curated and expert-validated question-answer pairs), vector stores, and RAGAs evaluation results.
+* **EDA/**: Contains exploratory data analysis notebook examining document characteristics such as document length, vocabulary distributions, and structural complexity.
+* **expert_evaluations/**: Contains the results and analysis of expert assessments comparing the baseline and Split-RAG architecture.
+* **split_rag/**: Contains the final Split-RAG implementation and supporting experimental notebook.
+* **baseline/**: Contains the baseline implementation and experimental results.
 
 ## Research Objective
-
-The primary objective is to evaluate whether a modular Split-RAG architecture can bridge the gap between abstract legal retrieval and actionable, case-specific decision support. By decoupling legislation and jurisprudence into dedicated channels, the architecture mitigates "semantic dilution"—where concise statutory provisions are overshadowed by voluminous judicial narratives—to generate legally defensible and verifiable justifications.
+The primary objective of this research is to evaluate whether a modular Split-RAG architecture can improve legal information retrieval and support legal decision-making under the Dutch Omgevingswet. By separating legislation and jurisprudence into dedicated retrieval channels, the architecture aims to mitigate statutory dilution, improve source attribution, and increase the transparency and verifiability of generated legal responses.
 
 ## Technical Configuration
-
-The system is implemented using the following specifications:
+The system was implemented using the following specifications:
 * **LLM**: GPT-4o (temperature 0.0)
 * **Architecture Split-RAG**: Hybrid Split-RAG with PDR (Parent Document Retrieval) and MMR (Maximum Marginal Relevance).
-* **Architecture baseline**: structure-aware chunking.
-* **Evaluation**: RAGAs framework and expert validation
+* **Architecture baseline**: Structure-aware chunking.
+* **Evaluation**: RAGAs frameork and expert validation.
 
 ## Setup Instructions
 
